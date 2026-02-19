@@ -10,7 +10,7 @@ from telegram.ext import (
 )
 from datetime import datetime
 
-OWNER_ID = 1160642744
+OWNER_ID = 8209644174
 produk_file = "produk.json"
 saldo_file = "saldo.json"
 deposit_file = "pending_deposit.json"
@@ -698,4 +698,5 @@ def main(): # Made With love by @govtrashit A.K.A RzkyO
 
 if __name__ == "__main__":
     main()
+
 
