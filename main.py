@@ -266,7 +266,7 @@ async def handle_deposit_nominal(update, context): # HANDLE DEPOSIT NOMINAL
             text=f"💳 Transfer *Rp{nominal + 23:,}* ke:\n"
                  "`DANA 0812-1259-4112 A.N And**`\n"
                  "`SEABANK 901655655990 A.N Rizky Oryza`\n"
-                 "`BANK JAGO 107616413403 A.N Rizky Oryza`\nSetelah transfer, kirim bukti ke bot ini.",
+                 "`QrisDana https://ibb.co.com/7t54RddV store garfield`\nSetelah transfer, kirim bukti ke bot ini.",
             parse_mode="Markdown",
             reply_markup=reply_keyboard
         )
@@ -741,6 +741,7 @@ def main(): # Made With love by @govtrashit A.K.A RzkyO
 
 if __name__ == "__main__":
     main()
+
 
 
 
